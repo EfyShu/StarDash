@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Project XinDai_POC
  * @Date 2019/1/8 14:39
  * @Author by Efy Shu
  * @Description 规则原始方法,包含大于,小于,等于,大于等于,小于等于

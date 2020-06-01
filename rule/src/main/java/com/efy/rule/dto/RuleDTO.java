@@ -7,7 +7,6 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @Project XinDai_POC
  * @Date 2019/1/8 18:44
  * @Author by Efy Shu
  * @Description TODO

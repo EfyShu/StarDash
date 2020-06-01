@@ -3,7 +3,6 @@ package com.efy.rule.enums;
 import lombok.AllArgsConstructor;
 
 /**
- * @Project Sunyard-RLS
  * @Date 2020/3/5 15:23
  * @Author by Efy
  * @Description TODO
