@@ -117,9 +117,7 @@ public class RuleEngine {
     private List<RuleDTO> buildTree(Map<String,String> source, List<RuleDTO> ruleList){
         List<RuleDTO> ruleTree = new ArrayList<>();
         for (RuleDTO m1 : ruleList) {
-            if(null == m1.getSourceValue() || "".equals(m1.getSourceValue())){
-                m1.setSourceValue(source.get(m1.getFieldName()));
-            }
+            m1.setSourceValue(source.get(m1.getFieldName()));
             //链表模式直接添加,不存在父子级结构
             if (listMode || m1.getPid() == null) {
                 ruleTree.add(m1);
